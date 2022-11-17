@@ -64,19 +64,19 @@ public class CadastroActivity extends AppCompatActivity  {
         });
        
 
-        binding.editCampoEMailCadastro.setText("elanilsonpp@hotmail.com");
-        binding.editCampoLoginCadastro.setText("xxt");
-        binding.editCampoSenha1Cadastro.setText("123");
-        binding.editCampoSenha2Cadastro.setText("123");
-        binding.editTextTextRua.setText("santa maria");
-        binding.editTextTextBairro.setText("sacramenta");
-        binding.editTextTextCidade.setText("belem");
-        binding.editTextTextEstado.setText("para");
-        binding.editTextTextCadatroCepCadastro.setText("66120300");
-        binding.editTextTextNumeroCasaCadastro.setText("526");
-        binding.editTextTextCadatroDDDCadastro.setText("91");
-        binding.editTextTextNumeroTelefoneCadastro.setText("555");
-        binding.editTextTextComplementoCadastro.setText("555");
+        binding.editCampoEMailCadastro.setText("");
+        binding.editCampoLoginCadastro.setText("");
+        binding.editCampoSenha1Cadastro.setText("");
+        binding.editCampoSenha2Cadastro.setText("");
+        binding.editTextTextRua.setText("");
+        binding.editTextTextBairro.setText("");
+        binding.editTextTextCidade.setText("");
+        binding.editTextTextEstado.setText("");
+        binding.editTextTextCadatroCepCadastro.setText("");
+        binding.editTextTextNumeroCasaCadastro.setText("");
+        binding.editTextTextCadatroDDDCadastro.setText("");
+        binding.editTextTextNumeroTelefoneCadastro.setText("");
+        binding.editTextTextComplementoCadastro.setText("");
 
         viewModel = new ViewModelProvider(this).get(CadastroViewModel.class);
         binding.layoutCadastrar.setOnClickListener(new View.OnClickListener() {
