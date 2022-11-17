@@ -10,7 +10,7 @@ public class RetrofitClient {
     private static Retrofit getINSTACE(){
         if(INSTACE == null){
             INSTACE = new Retrofit.Builder()
-                    .baseUrl("https://apkdoandroidonline.com/bergs_burg_delivery/api/")
+                    .baseUrl("https://bergburg.000webhostapp.com/bergs_burg_delivery/api/")
                     .addConverterFactory(GsonConverterFactory.create())
                     .build();
         }
